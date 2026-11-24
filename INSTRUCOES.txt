@@ -1,0 +1,40 @@
+DESCUBRA SEU ESTILO — VERSÃO MASCULINA PROVISÓRIA
+
+COMO USAR
+1. Salve descubra-seu-estilo.html no computador.
+2. Abra o arquivo em um navegador atualizado, como Chrome, Edge, Firefox ou Safari.
+3. Preencha os dados, responda às nove perguntas, revise e gere o resultado.
+4. Clique em “Baixar meu PDF”. O PDF é criado no navegador, incluindo as páginas dos três estilos.
+
+O HTML tem cerca de 20 MB porque inclui as 28 imagens, a biblioteca de PDF e o documento de referência. Não precisa de instalação, servidor, Typeform ou conexão com serviços externos para executar.
+
+REGRAS
+- De uma a três alternativas por pergunta.
+- Cada alternativa soma um ponto para sua letra: A Casual/Esportivo; B Clássico/Tradicional; C Elegante/Sofisticado; D Romântico/Suave; E Sensual/Magnético; F Criativo/Artístico; G Moderno/Urbano.
+- A letra com mais pontos define o predominante. As duas seguintes definem os secundários.
+- Quando há empate relevante para as três primeiras posições, a pessoa ordena as letras empatadas. Essa preferência define a ordem sem mudar os pontos.
+- Se menos de três letras tiverem pontos, é necessário revisar as respostas; o sistema não atribui estilos com zero pontos.
+- Percentuais são calculados sobre o total de alternativas marcadas. As barras indicam a presença da letra entre as nove perguntas.
+
+PDF
+Inclui capa com nome, pontuação, predominante e secundários; tabela completa de pontos; páginas originais dos estilos escolhidos, na ordem do resultado.
+O estilo B não tem seção própria no arquivo enviado. Uma página provisória, claramente identificada e baseada nas alternativas do questionário, ocupa essa seção quando necessário.
+O conteúdo e algumas páginas do PDF de referência ainda são provisórios. O exemplo-resultado-estilos.pdf demonstra G como predominante e C/B como secundários, com desempate entre G e C.
+
+DADOS E PROGRESSO
+Nome, sobrenome, e-mail e telefone são solicitados conforme os contatos do formulário de referência. Nome e sobrenome são usados na capa do PDF; telefone e e-mail não são impressos.
+Esta versão não envia e-mails, não coleta leads em um servidor, não cria contas e não faz integração com CRM. Os dados ficam no armazenamento local do navegador. O progresso não sincroniza entre aparelhos ou navegadores.
+O rodapé permite apagar o teste e os contatos salvos neste navegador. Os PDFs já baixados permanecem no computador.
+Se o navegador bloquear o armazenamento local, o formulário ainda funciona, mas avisa que a página precisa permanecer aberta até o download.
+
+PUBLICAÇÃO
+Para publicar, hospede o HTML como uma página estática no seu domínio. Para exibir dentro do WordPress, uma opção é incorporar a URL dessa página com um iframe. O arquivo não precisa de PHP.
+Se o ambiente tiver uma política de segurança que bloqueie JavaScript inline, será preciso adaptar a publicação para essa política.
+
+ATUALIZAÇÃO DO MATERIAL
+Quando o PDF final for enviado, substituiremos o documento incorporado, as prévias dos estilos e o mapa de páginas. As perguntas e a lógica de pontuação estão separadas do conteúdo dos estilos no código.
+O bloco <script id="style-config" type="application/json"> contém questions, styles e referencePdf. Em styles, “pages” usa índices começando em zero. Não basta trocar o nome do arquivo: as páginas e a versão do conteúdo também precisam ser conferidas.
+A versão atual contempla somente o percurso masculino do Typeform, pois este é o material fornecido. Uma versão feminina exige suas perguntas, imagens e conteúdo de resultado correspondentes.
+
+VALIDAÇÃO REALIZADA
+Fluxo completo no navegador, campos vazios, limite de três escolhas, revisão, desempate, resultado, persistência após recarregar e download real de PDF. Conferência de layout a 390 px e do PDF de exemplo renderizado. Testes da lógica cobrem duplicações, letras inválidas, ordenação, empate e menos de três letras pontuadas.
