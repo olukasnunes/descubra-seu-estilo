@@ -9,11 +9,15 @@ Formulário de estilos pessoais com nove perguntas, seleção de uma a três alt
 - Desempate explícito sem alterar a pontuação.
 - Revisão e progresso salvo no navegador.
 - PDF com pontuação e páginas dos estilos selecionados.
-- Imagens e biblioteca de PDF incorporadas: funciona sem serviços externos.
+- Logo original, Montserrat, Open Sans, azul elétrico e fundo creme da identidade visual.
+- Fotos com transparência preservada.
+- Biblioteca de PDF e fontes incorporadas; imagens hospedadas na pasta `assets/`.
 
 ## Executar
 
-Abra `index.html` em um navegador atualizado ou acesse a publicação do GitHub Pages.
+Acesse https://olukasnunes.github.io/descubra-seu-estilo/ ou abra `index.html` mantendo a pasta `assets/` ao lado.
+
+A versão independente para download incorpora todos os recursos em um único HTML.
 
 ## Dados
 
